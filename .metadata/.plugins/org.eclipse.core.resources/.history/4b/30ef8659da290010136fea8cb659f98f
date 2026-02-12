@@ -1,0 +1,28 @@
+package com.dipu.program;
+
+public class CountVowelConsonant {
+
+	public static void main(String[] args) {
+		
+		String str = "Automation";
+		
+		int vowel = 0 ,consonant = 0;
+		
+		for(char c :str.toCharArray()) {
+			if("aeiouAEIOU".indexOf(c) != -1) {
+				vowel++ ;
+			}else if(Character.isLetter(c)) {
+				consonant++ ;
+			}
+		}
+		
+//		for (char c : str.toCharArray()) {
+//			if("aeiouAEIOU".indexOf(c) != -1) {
+//				vowel++;
+//			}else if(Character.isLetter(c)) {
+//				consonant++;
+//			}
+//		}
+		System.out.println("Vowels is : "+vowel+"  Consonants: "+consonant);
+	}
+}

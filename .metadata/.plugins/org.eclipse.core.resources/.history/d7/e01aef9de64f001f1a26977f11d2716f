@@ -1,0 +1,16 @@
+package other;
+
+public class Sum {
+	
+	Integer x = 10;
+	Integer x1 = 10;
+	Integer x2 = 10;
+//	double d1 = 300;
+//	double d2 = 300;
+	Double d3 =300;
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
